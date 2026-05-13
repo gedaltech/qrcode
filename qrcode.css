@@ -1,0 +1,77 @@
+
+.principal{
+    height: 100;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    justify-self:center;
+}
+.fon{
+    background-image: url("font.png");
+    width: 200%;
+    height: 250vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.text0{
+    background-color: rgb(240, 247, 247);
+    display: flex;
+    justify-content: center;
+    justify-self: center;
+    position: relative;
+    top: 3.5rem;
+    
+    width: 60%;
+    text-align: center;
+    line-height: 0.5rem;
+    padding: 1rem;
+    border-radius: 3rem;
+    border: 1rem  groove black;
+
+}
+#logo{
+    width: 15%;
+    height: 80%;
+    position: absolute;
+    left: 1rem;
+    bottom: 0.7rem;
+}
+.test{
+    position: relative;
+    left: 3rem;
+}
+.icon{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 59rem;
+    left: 15rem;
+}
+.ico1{
+    width: 8%;
+    height: 8%;
+}
+.ico2{
+    
+    width: 10%;
+    height: 10%;
+    position: relative;
+    right: 0.8rem;
+    
+}
+.ico3{
+    width: 10%;
+    height: 10%;
+position: relative;
+right: 1rem;
+top: 0.5rem;
+    
+}
+.ico4{
+    width: 7%;
+    height: 7%;
+    
+}
+.whap{
+    display: flex;
+}
