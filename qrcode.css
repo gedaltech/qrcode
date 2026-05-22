@@ -18,10 +18,9 @@
     display: flex;
     justify-content: center;
     justify-self: center;
-    position: relative;
+    position: absolute;
     top: 3.5rem;
-    
-    width: 60%;
+    width: 50%;
     text-align: center;
     line-height: 0.5rem;
     padding: 1rem;
@@ -29,9 +28,10 @@
     border: 1rem  groove black;
 
 }
+
 #logo{
-    width: 15%;
-    height: 80%;
+    width: 11%;
+    height: 75%;
     position: absolute;
     left: 1rem;
     bottom: 0.7rem;
@@ -40,17 +40,36 @@
     position: relative;
     left: 3rem;
 }
+.ceterim{
+    display: flex;
+    background-color: black;
+    
+}
+.cent1{
+    position: absolute;
+    top: 15rem;
+    left: 12rem;
+
+}
+#centim{
+    width: 95%;
+    height: 100vh;
+
+}
 .icon{
     display: flex;
     flex-direction: column;
-    position: relative;
-    top: 59rem;
+    position: absolute;
+    top: 68rem;
     left: 15rem;
 }
 .ico1{
     width: 8%;
     height: 8%;
+    position: relative;
+    right: 0.8rem;
 }
+
 .ico2{
     
     width: 10%;
@@ -62,16 +81,27 @@
 .ico3{
     width: 10%;
     height: 10%;
-position: relative;
-right: 1rem;
-top: 0.5rem;
+    position: relative;
+    right: 1rem;
+    top: 0.5rem;
     
 }
 .ico4{
     width: 7%;
     height: 7%;
+    position: relative;
+    right: 0.8rem;
     
 }
 .whap{
+    display: flex;
+}
+.mail{
+    display: flex;
+}
+.tele{
+    display: flex;
+}
+.position{
     display: flex;
 }
